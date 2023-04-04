@@ -1,0 +1,24 @@
+.cardSection .card {
+
+    height: 273px;
+
+}
+
+.cardSection .card .detailsCard .details {
+
+    display: flex;
+    font-size: 13px;
+    justify-content: flex-start;
+}
+
+.detailsCard .details .rowdetails{
+
+display: flex;
+
+}
+
+.cardSection {
+    
+    position: absolute;
+    bottom: 35.02%;
+}

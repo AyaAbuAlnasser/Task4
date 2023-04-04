@@ -1,0 +1,297 @@
+main{
+
+    height: 1000px;
+    color: #000000;
+
+}
+
+
+
+ /* findjobOrEmployee Section  */
+
+
+.findjobOrEmployee h2 {
+
+    position: absolute;
+    left: 629px;
+    top: 112px; 
+
+}
+.findjobOrEmployee p {
+
+    position: absolute;
+    width: 270px;
+    height: 48px;
+    left: 557px;
+    top: 159px;
+    
+}
+
+button{
+
+    background-color: #282828;
+    border: 0;
+    color: #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.findjobOrEmployee button {
+
+    /* background-color: #282828;
+    border: 0;
+    color: #FFFFFF;
+    border-radius: 4px; */
+
+    cursor: pointer;
+    position: absolute;
+    height: 32px;
+    left: 43.27%;
+    right: 43.56%;
+    top: calc(44% - 32px/2 - 312.5px);
+
+    
+}
+
+
+
+/* search Section */
+
+
+
+main .search input{
+
+    position: absolute;
+    height: 32px;
+    left: 29.27%;
+    right: 43.56%;
+    top: calc(52% - 32px/2 - 312.5px);
+    border: 0;
+    border-bottom: 1px solid #000000;
+    height: 20px;
+    width: 600px;
+   background-color: #FFFFFF00;
+}
+
+main .search input:focus{
+    
+    outline: none;
+    border-bottom: 1px solid #000000;
+
+
+
+}
+main .search span , main .search .tune {
+
+    position: absolute;
+    right: 43.56%;
+    top: calc(52% - 32px/2 - 312.5px);
+    color: #938C8C;
+    font-size: 20px;
+
+}
+
+main .search .tune{
+
+    left: 72%;
+
+}
+
+main .search span {
+  
+    left: 70%;
+
+}
+
+
+
+
+/* filter Section */
+
+
+
+
+.filter{
+    position: absolute;
+    left: 30.27%;
+    top: calc(60% - 32px/2 - 312.5px);
+    color: #938C8C;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+.filter a{
+   
+    margin: 0 30px;
+
+}
+
+.filter a:hover{
+   
+    color: #000000;
+    text-decoration:underline #FF8500;
+   
+}
+
+
+
+
+
+/* card section */
+
+
+
+
+.cardSection{
+
+    position: absolute;
+    bottom: 25.02%;
+    left: 1%;
+    width: 97vw;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+
+.cardSection .card{
+
+    margin: 0 40px;
+    Width: 305px;
+    Height: 401px;
+    border: none;
+    box-shadow: 0px 4px 20px rgba(40, 40, 40, 0.15);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+
+}
+
+.cardSection .card .titleCard img{
+
+    border-radius: 50px;
+
+}
+
+.cardSection .card .titleCard{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 18px 0;
+
+}
+
+.cardSection .card .titleCard h4 {
+
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 24px;
+
+}
+
+.cardSection .card .titleCard p {
+
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 24px;
+    color: #938C8C;
+
+}
+
+.cardSection .card .detailsCard .details{
+
+    display: flex;
+    font-size: 13px;
+}
+
+.cardSection .card .detailsCard .details label{
+
+    color: #938C8C;
+ 
+}
+
+.cardSection .card .detailsCard .details p{
+
+    margin-left: 5px;
+}
+
+.cardSection .card .detailsCard .details label , .cardSection .card .jobDe h2, .card .status{
+
+    margin-left: 32px;
+    margin-bottom: 18px;
+}
+
+.cardSection .card .jobDe h2{
+
+    margin-bottom: 32px !important;
+
+}
+.card .status{
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    font-size: 8px;
+}
+
+.card .status .timetable{
+
+    display: flex;
+    color: #938C8C;
+
+}
+
+.card .status .timetable .date{
+
+    margin-left: 6px;
+    
+}
+
+.card .status .activeInactive{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.card .status .activeInactive span{
+
+    margin-left: 1px;
+
+}
+
+.card .status .activeInactive span{
+
+    color: #71AA27;
+
+}
+
+.card .status .activeInactive .activeInactiveCircle{
+
+    background-color: #71AA27;
+    width: 4px;
+    height: 4px;
+    border-radius: 50px;
+    
+}
+
+.card .moreInformationButton{
+
+    display: flex;
+    justify-content: center;
+   
+}
+
+.card .moreInformationButton button{
+
+    /* background-color: #000000;
+    border-radius: 4px;
+    border: 0;
+    color: #FFFFFF; */
+    width: 220px;
+    height: 35px;
+}
+

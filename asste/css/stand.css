@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: #938C8C;
+    text-decoration: none;
+}
+
+body{
+
+    color: #938C8C;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    
+}
+
+
+
+
+
+/* nav section */
+
+
+.navbar{
+
+    font-family: 'Montserrat';
+    height: 10vh;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+    /* position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 95.66%; */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.navbar .loge {
+
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+    
+}
+
+/* .navbar .loge p{
+
+    font-family: 'Barlow' !important ;
+    font-size: 14px;
+    
+} */
+.navbar .pages  .dropdown,.navbar .pages {
+
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+
+}
+.navbar .pages .home , .navbar .pages  .hireUs{
+    
+    margin-left: 32px;
+
+}
+.navbar .settings{
+    
+    margin-right: 28px;
+}
+.navbar .settings a{
+    
+    margin: 0 20px;
+}
+
+.navbar .settings .login{
+
+    color: #282828;
+}
+.navbar .settings .lang span{
+
+    color: #FF8500;
+
+}
+.navbar .settings .lang {
+
+    color: #C5BCB3;
+
+}
+
+
+/* logo style */
+
+.X .leftTop , .X .rightDown{
+
+    background-color:#282828 ;
+    width: 5px;
+    height: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.X .leftTop{
+
+    position: absolute;
+    left: 78px;
+    top: 18px;
+    transform: rotate(320deg);
+}
+
+.X .rightDown{
+
+    position: absolute;
+    left: 77px;
+    top: 18px;
+    transform: rotate(39deg);
+}
+
+.circle{
+
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 75px;
+    top: 24px;
+    border-radius: 50px;
+}
+
+
+.circle .circleSac {
+
+    background-color: #FF8500;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: 2px;
+    top: 3px;
+    border-radius: 50px;
+} 
+
+
+
+/* main section */
+
+
+
+main{
+
+    background-image: url(../image/bac.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+/* footer section */
+
+footer{
+
+
+    height: 213px;
+    background-color: #282828;
+}
+
+.footerPages{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+ .footerPagesPart{
+
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0;
+    width: 232px;
+}
+.footerPagesPart a{
+
+    margin-top: 10px;
+
+
+}
+.footerPagesPart .titlePage{
+
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+
+.right{
+
+    display: flex;
+    align-items: center;
+}
+.right p{
+
+    margin-left: 90px;
+}
+hr{
+    width: 731px;
+    margin-left: 5px;
+}
+
+
