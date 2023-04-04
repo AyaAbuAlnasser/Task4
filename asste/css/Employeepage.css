@@ -1,0 +1,55 @@
+
+.cardSection .card {
+
+    height: 273px;
+
+}
+
+.cardSection .card .detailsCard{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+.cardSection .card .titleCard {
+ 
+    justify-content: flex-start;
+
+
+}
+
+.cardSection .card .titleCard h4 ,.cardSection .card .titleCard img{
+
+    margin-left: 8px;
+}
+
+.cardSection .card .detailsCard .details {
+
+    display: flex;
+    font-size: 13px;
+    justify-content: flex-start;
+}
+
+.cardSection .card .detailsCard .details label {
+    margin-left: 23px;
+}
+
+
+.detailsCard .details .rowdetails{
+
+    display: flex;
+
+}
+
+
+ /* findjobOrEmployee Section  */
+
+
+.findjobOrEmployee h2 {
+
+    margin-left: 77px;
+
+}
+

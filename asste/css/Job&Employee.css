@@ -8,23 +8,27 @@ main{
 
 
  /* findjobOrEmployee Section  */
+ .mainSection{
 
-
-.findjobOrEmployee h2 {
-
-    position: absolute;
-    left: 629px;
-    top: 112px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
 
 }
+
+
+ .findjobOrEmployee h2 {
+
+    margin-left: 101px;
+    margin-top: 50px;
+    margin-bottom: 24px;
+
+}
+
 .findjobOrEmployee p {
 
-    position: absolute;
-    width: 270px;
-    height: 48px;
-    left: 557px;
-    top: 159px;
-    
+    text-align-last: center;
 }
 
 button{
@@ -39,39 +43,30 @@ button{
 
 .findjobOrEmployee button {
 
-    /* background-color: #282828;
-    border: 0;
-    color: #FFFFFF;
-    border-radius: 4px; */
-
     cursor: pointer;
-    position: absolute;
     height: 32px;
-    left: 43.27%;
-    right: 43.56%;
-    top: calc(44% - 32px/2 - 312.5px);
-
-    
+    width: 168px;
+    margin-left: 58px;
+    margin-top: 30px;
+ 
 }
 
 
 
 /* search Section */
 
-
+main .search{
+    position: relative;
+}
 
 main .search input{
 
-    position: absolute;
-    height: 32px;
-    left: 29.27%;
-    right: 43.56%;
-    top: calc(52% - 32px/2 - 312.5px);
     border: 0;
     border-bottom: 1px solid #000000;
     height: 20px;
     width: 600px;
-   background-color: #FFFFFF00;
+    background-color: #FFFFFF00;
+    margin-top: 53px;
 }
 
 main .search input:focus{
@@ -85,8 +80,7 @@ main .search input:focus{
 main .search span , main .search .tune {
 
     position: absolute;
-    right: 43.56%;
-    top: calc(52% - 32px/2 - 312.5px);
+    top:38px;
     color: #938C8C;
     font-size: 20px;
 
@@ -94,13 +88,13 @@ main .search span , main .search .tune {
 
 main .search .tune{
 
-    left: 72%;
+    left: 95%;
 
 }
 
 main .search span {
   
-    left: 70%;
+    left: 91%;
 
 }
 
@@ -113,15 +107,12 @@ main .search span {
 
 
 .filter{
-    position: absolute;
-    left: 30.27%;
-    top: calc(60% - 32px/2 - 312.5px);
-    color: #938C8C;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-
+ 
+    margin-bottom: 39px;
+    margin-top: 112px;
 }
+
+
 .filter a{
    
     margin: 0 30px;
@@ -146,13 +137,9 @@ main .search span {
 
 .cardSection{
 
-    position: absolute;
-    bottom: 25.02%;
-    left: 1%;
-    width: 97vw;
     display: flex;
     justify-content: space-around;
-
+    margin-top: 50px;
 
 }
 
@@ -166,6 +153,7 @@ main .search span {
     box-shadow: 0px 4px 20px rgba(40, 40, 40, 0.15);
     border-radius: 10px;
     background-color: #FFFFFF;
+    padding: 20px;
 
 }
 
@@ -180,7 +168,7 @@ main .search span {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 18px 0;
+    margin: 10px 0;
 
 }
 
@@ -189,7 +177,7 @@ main .search span {
     font-weight: 500;
     font-size: 10px;
     line-height: 24px;
-
+    margin-right: 45px;
 }
 
 .cardSection .card .titleCard p {
@@ -287,10 +275,6 @@ main .search span {
 
 .card .moreInformationButton button{
 
-    /* background-color: #000000;
-    border-radius: 4px;
-    border: 0;
-    color: #FFFFFF; */
     width: 220px;
     height: 35px;
 }
