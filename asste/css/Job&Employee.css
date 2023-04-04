@@ -8,6 +8,7 @@ main{
 
 
  /* findjobOrEmployee Section  */
+
  .mainSection{
 
     display: flex;
@@ -75,7 +76,6 @@ main .search input:focus{
     border-bottom: 1px solid #000000;
 
 
-
 }
 main .search span , main .search .tune {
 
@@ -116,6 +116,7 @@ main .search span {
 .filter a{
    
     margin: 0 30px;
+   
 
 }
 
@@ -123,7 +124,7 @@ main .search span {
    
     color: #000000;
     text-decoration:underline #FF8500;
-   
+    text-decoration-skip: word-spacing;
 }
 
 
