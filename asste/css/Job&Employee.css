@@ -123,7 +123,7 @@ main .search span {
 .filter a:hover{
    
     color: #000000;
-    text-decoration:underline #FF8500;
+    text-decoration: 2px underline #FF8500;
     text-decoration-skip: word-spacing;
 }
 
